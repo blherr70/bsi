@@ -1,10 +1,12 @@
 // Added all required SASS variables here.
-$primaryColor: #F2F7A1;
-$secondaryColor: #46C2CB;
-$accentColor: #6D67E4;
-$darkColor: #453C67;
-$lightColor: #edecff;
+$primaryColor: #19376D;
+$secondaryColor: #A5D7E8;
+$accentColor: #576CBC;
+$darkColor: darken($primaryColor, 10%);
+$lightColor: lighten($secondaryColor, 20%);
 $sectionTopPadding: 12rem;
+$sectionBottomPadding: 24rem;
+
 
 @font-face {
     font-family:'Moms_typewriter';
@@ -15,7 +17,3 @@ $sectionTopPadding: 12rem;
     font-family:'Newsreader';
     src: url('../../assets/fonts/Newsreader/Newsreader-VariableFont_opsz\,wght.ttf');
 }
-
-// F2F7A1
-// 6D67E4
-// 46C2CB

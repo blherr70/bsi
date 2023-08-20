@@ -1,6 +1,6 @@
 .header--navbar {
     margin-top: 112px;
-    background-color: $secondaryColor;
+    background-color: $primaryColor;
     // color:  $lightColor;
 
     a {
@@ -8,30 +8,16 @@
  
     }
 
+    @media screen and (max-width: 350px) {
+        margin-top: 104px;
+    }
+
     @media screen and (min-width: 576px) {
         margin-top: 88px;
     }
 }
 
-// .nav-link a {
-//     color: $accentColor;
-// }
-
-// .nav--title:hover {
-//     border-left: 2px solid $accentColor;
-//     border-bottom: none;
-//     // color: $accentColor;
-// }
-
-// .nav-link {
-//     font-size: 18px;
-//     color: $accentColor;
-
-//     &:hover,
-//     &:after {
-//         border-left: 2px solid $accentColor;
-//         border-bottom: none;
-//         color: $accentColor;   
-//     }
-// }
-
+.navbar-toggler {
+    background-color: $accentColor;
+    color: $primaryColor;
+}

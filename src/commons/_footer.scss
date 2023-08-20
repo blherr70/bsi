@@ -1,14 +1,15 @@
 #footer {
-    .social {
-        a {
-            padding: 2px;
-        }
-    }
+    background-color: $secondaryColor;
+    color: $darkColor;
 
     a {
         text-decoration: none;
-        color: $secondaryColor;
-        // border-left: 2px solid $darkColor;
+        color: $primaryColor;
         padding-left: 10px;
+
+        &:hover,
+        &:after {
+            color: $lightColor;
+        }
     }
 }

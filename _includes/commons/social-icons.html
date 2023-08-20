@@ -1,9 +1,18 @@
 <ul class="social-icons my-auto">
-    <li><a href="https://www.linkedin.com/in/{{ profile.linkedin }}/"><i class="bi bi-linkedin pe-1 secondary--icon-color"></i></a></li>
-    <li><a href="https://twitter.com/{{ profile.twitter }}"><i class="bi bi-twitter px-1 secondary--icon-color"></i></a></li>
-    <li ><a href="{{ profile.instagram }}"><i class="bi bi-instagram px-1 secondary--icon-color"></i></a></li>
-    <li ><a href="https://www.youtube.com/@{{ profile.youtube }}"><i class="bi bi-youtube px-1 secondary--icon-color"></i></a></li>
-    <li ><a href="https://www.pinterest.com/{{ profile.pinterest }}/"><i class="bi bi-pinterest ps-1 secondary--icon-color"></i></a></li>
-
+    {% if site.linkedin %}
+    <li><a href="https://www.linkedin.com/in/{{ site.linkedin }}/"><i class="bi bi-linkedin pe-1 secondary--icon-color"></i></a></li>
+    {% endif %}
+    {% if site.twitter %}
+    <li><a href="https://twitter.com/{{ site.twitter }}"><i class="bi bi-twitter px-1 secondary--icon-color"></i></a></li>
+    {% endif %}
+    {% if site.instagram %}
+    <li ><a href="{{ site.instagram }}"><i class="bi bi-instagram px-1 secondary--icon-color"></i></a></li>
+    {% endif %}
+    {% if site.youtube %}
+    <li ><a href="https://www.youtube.com/@{{ site.youtube }}"><i class="bi bi-youtube px-1 secondary--icon-color"></i></a></li>
+    {% endif %}
+    {% if site.pinterest %}
+    <li ><a href="https://www.pinterest.com/{{ site.pinterest }}/"><i class="bi bi-pinterest ps-1 secondary--icon-color"></i></a></li>
+    {% endif %}
 </ul>
 

@@ -1,5 +1,5 @@
 #jumbotron {
-    background-color: $primaryColor;
+    background-color: $secondaryColor;
 
     nav--title {
         align-content: center;
@@ -12,9 +12,24 @@
 
     .brand--title {
         font-family: "Moms_typewriter", sans-serif;
-        color: $accentColor;
+        color: $primaryColor;
         padding-left: 2px;
-        font-size: 2rem;
+        font-size: 1.5rem;
+
+        .brand--ext {
+            color: $darkColor;
+    
+        }
+
+        @media screen and (min-width: 350px) {
+            font-size: 2rem;
+
+        }
+
+    }
+
+    .brand--ext {
+        color: $primaryColor;
 
     }
   }
