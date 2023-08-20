@@ -1,5 +1,21 @@
 // Added all required SASS variables here.
-$backgroundPrimary: #ebe2d3;
-$sectionTitleColor: #502314;
-$accentColor: #d62300;
-$sectionTopPadding: 300px;
+$primaryColor: #F2F7A1;
+$secondaryColor: #46C2CB;
+$accentColor: #6D67E4;
+$darkColor: #453C67;
+$lightColor: #edecff;
+$sectionTopPadding: 12rem;
+
+@font-face {
+    font-family:'Moms_typewriter';
+    src: url('../../assets/fonts/Moms/Moms_typewriter.ttf');
+}
+
+@font-face {
+    font-family:'Newsreader';
+    src: url('../../assets/fonts/Newsreader/Newsreader-VariableFont_opsz\,wght.ttf');
+}
+
+// F2F7A1
+// 6D67E4
+// 46C2CB

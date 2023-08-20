@@ -1,0 +1,15 @@
+<section class="card mb-4" id="skills">
+    <h2 class="card-header text-center">Skills</h2>
+    <div class="card-body">
+        {% for skill in site.data.skills %}
+        {% if skill.subtitle %}
+        <h3 class="h5 mb-3">{{ skill.name }}</h3>
+        {% continue %}
+        {% endif %}
+        <h4 class="h6 secondary--icon-color"><i class="bi bi-{{ skill.icon }}"></i> {{ skill.name }}</h4>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-secondary w-{{ skill.percent }}" role="progressbar" aria-valuenow="{{ skill.percent }}" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

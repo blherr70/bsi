@@ -1,0 +1,9 @@
+#hero {
+    background-color: lighten($color: $accentColor, $amount: 50);
+}
+
+.hero-lead {
+    border-left: 2px solid $accentColor;
+    margin-top: 20px;
+    padding-left: 4px;
+}

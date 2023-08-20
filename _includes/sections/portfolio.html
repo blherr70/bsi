@@ -1,0 +1,91 @@
+{% for profile in site.data.profile %}
+{% if profile.showportfoliocard %}
+<section class="card mb-4" id="portfolio">
+    <h2 class="card-header text-center">Portfolio</h2>
+    <div class="card-body">
+        {% if profile.showwebsites %}
+        <div class="d-flex align-items-start">
+            <div class="me-3 icon--container">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill bg--circle" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8"/>
+                </svg>
+                <i class="bi bi-globe-americas main--icon" data-fa-transform="shrink-8"></i>
+            </div>
+            <ul class="flex-grow-1 list-unstyled">
+                {% for website in site.data.portfolio.websites %}
+                <li>
+                {% if forloop.index != 1 %}
+                <hr>
+                {% endif %}   
+                {% if website.icon %}
+                    <i class="bi bi-{{ website.icon }} secondary--icon secondary--icon-color"></i>
+                {% endif %}
+                {% if website.custom-icon %}
+                    <img class="secondary--icon" src="{{ website.custom-icon }}" alt="">
+                {% endif %} 
+                    <a target="_blank" href="{{ website.url }}">{{ website.name }}</a>
+                </li>
+
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        {% if profile.showbackends %}
+        <div class="d-flex align-items-start">
+            <div class="fa-layers fa-fw fa-2x me-3">
+                <i class="fas fa-circle text-primary"></i>
+                <i class="fas fa-code text-white" data-fa-transform="shrink-8"></i>
+            </div>
+            <ul class="flex-grow-1 list-unstyled">
+                {% for backend in site.data.portfolio.backends %}
+                <li><i class="fab fa-fw {{ backend.icon }} text-muted"></i> <a href="{{ backend.url }}">{{ backend.name }}</a></li>
+                {% endfor %}
+                <li><hr></li>
+            </ul>
+        </div>
+        {% endif %}
+        {% if profile.showfrontends %}
+        <div class="d-flex align-items-start">
+            <div class="fa-layers fa-fw fa-2x me-3">
+                <i class="fas fa-circle text-primary"></i>
+                <i class="fas fa-paint-brush text-white" data-fa-transform="shrink-8"></i>
+            </div>
+            <ul class="flex-grow-1 list-unstyled">
+                {% for frontend in site.data.portfolio.frontends %}
+                <li><i class="fab fa-fw {{ frontend.icon }} text-muted"></i> <a href="{{ frontend.url }}">{{ frontend.name }}</a></li>
+                {% endfor %}
+                <li><hr></li>
+            </ul>
+        </div>
+        {% endif %}
+        {% if profile.showimages %}
+        <div class="d-flex align-items-start">
+            <div class="fa-layers fa-fw fa-2x me-3">
+                <i class="fas fa-circle text-primary"></i>
+                <i class="fas fa-images text-white" data-fa-transform="shrink-8"></i>
+            </div>
+            <ul class="flex-grow-1 list-unstyled">
+                {% for image in site.data.portfolio.images %}
+                <li><i class="fab fa-fw {{ image.icon }} text-muted"></i> <a href="{{ image.url }}">{{ image.name }}</a></li>
+                {% endfor %}    
+                <li><hr></li>
+            </ul>
+        </div>
+        {% endif %}
+        {% if profile.showvideos %}
+        <div class="d-flex align-items-start">
+            <div class="fa-layers fa-fw fa-2x me-3">
+                <i class="fas fa-circle text-primary"></i>
+                <i class="fas fa-video text-white" data-fa-transform="shrink-8"></i>
+            </div>
+            <ul class="flex-grow-1 list-unstyled">
+                {% for video in site.data.portfolio.videos %}
+                <li><i class="fab fa-fw {{ video.icon }} text-muted"></i> <a href="{{ video.url }}">{{ video.name }}</a></li>
+                {% endfor %} 
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endif %}
+{% endfor %}

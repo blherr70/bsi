@@ -1,0 +1,24 @@
+{% for profile in site.data.profile %}
+{% for hero in site.data.hero %}
+<section class="hero-banner py-5" id="hero">
+    <div class="container">
+        <div class="row row align-items-center">
+            <div class="col-lg-5 offset-lg-1 order-lg-1">
+                <img src="{{ profile.image }}" alt="Portrait of {{ profile.firstname }} {{ profile.middlename }} {{ profile.lastname }}" class="w-100">
+            </div>
+            <div class="col-lg-6">
+                <h4 class="hero-lead">{{ hero.lead }}</h4>
+                <p class="hero-toptext">{{ hero.toptext }}</p>
+                <figure class="w-75 mx-auto text-center">
+                    <blockquote class="blockquote">
+                        <p>"{{ hero.quote.text }}"</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">{{ hero.quote.author }}</figcaption>
+                </figure>
+                <p class="hero-bottomtext">{{ hero.bottomtext }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}
+{% endfor %}

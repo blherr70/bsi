@@ -1,0 +1,23 @@
+{% for profile in site.data.profile %}
+{% for intro in site.data.introduction %}
+<section class="card mb-4" id="introduction">
+    <h2 class="card-header text-center sticky-top">
+        <!-- <div class="d-inline-block title--firstname">Bryan Scott</div>
+        <div class="d-inline-block title--lastname">HERR</div> -->
+        Bryan Scott HERR
+    </h2>
+        <img src="{{ profile.image }}" alt="Portrait of {{ profile.firstname }} {{ profile.middlename }} {{ profile.lastname }}" class="w-100">
+    <div class="card-body">
+        <p class="card-text lead">{{ intro.lead }}</p>
+        <p class="card-text">{{ intro.toptext }}</p>
+        <figure class="w-75 mx-auto text-center">
+            <blockquote class="blockquote">
+                <p>{{ intro.quote.text }}</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">{{ intro.quote.author }}</figcaption>
+        </figure>
+        <p class="card-text">{{ intro.bottomtext }}</p>
+    </div>
+</section>
+{% endfor %}
+{% endfor %}

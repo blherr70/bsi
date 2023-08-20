@@ -1,16 +1,14 @@
 #footer {
-    ul {
-        li {
-            a {
-                color: #262626;
-                font-weight: 500;
-                text-decoration: none;
-            }
+    .social {
+        a {
+            padding: 2px;
         }
     }
-    form {
-        .btn.btn-info {
-    border-radius: 0;
-        }
+
+    a {
+        text-decoration: none;
+        color: $secondaryColor;
+        // border-left: 2px solid $darkColor;
+        padding-left: 10px;
     }
 }

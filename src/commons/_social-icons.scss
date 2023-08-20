@@ -1,6 +1,14 @@
-.social {
+.social-icons {
+
     li {
         display: inline-block;
-        margin-right: 3%;
+        // padding-left: 2px;
+        color: $accentColor;
+
+        a {
+            color: $darkColor;
+            border: none;
+            
+        }
     }
 }
