@@ -5,11 +5,12 @@
     a {
         text-decoration: none;
         color: $primaryColor;
-        padding-left: 10px;
+        align-content: center;
 
         &:hover,
         &:after {
             color: $lightColor;
         }
     }
+
 }

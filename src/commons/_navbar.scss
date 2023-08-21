@@ -1,11 +1,34 @@
+.main-nav {
+    .active {
+        background-color: $accentColor;
+        color: $lightColor !important;
+    }
+}
+
 .header--navbar {
     margin-top: 112px;
     background-color: $primaryColor;
-    // color:  $lightColor;
 
     a {
        color: $lightColor;
  
+       &:hover,
+       &:after {
+           background-color: $lightColor;
+       }
+    }
+
+    .dropdown-menu {
+        text-decoration: none;
+        background-color: $primaryColor
+    }
+
+    .dropdown .nav-link {
+        color: $lightColor;
+    }
+
+    .dropdown-item.active{
+        background-color: $accentColor;
     }
 
     @media screen and (max-width: 350px) {

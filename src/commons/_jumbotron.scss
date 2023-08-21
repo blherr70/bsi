@@ -13,7 +13,6 @@
     .brand--title {
         font-family: "Moms_typewriter", sans-serif;
         color: $primaryColor;
-        padding-left: 2px;
         font-size: 1.5rem;
 
         .brand--ext {
@@ -25,11 +24,18 @@
             font-size: 2rem;
 
         }
-
     }
 
     .brand--ext {
         color: $primaryColor;
 
     }
+
+    a {
+        &:hover,
+        &:after {
+            color: $darkColor;
+        }
+    }
+
   }
