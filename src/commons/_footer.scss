@@ -12,5 +12,11 @@
             color: $lightColor;
         }
     }
+}
 
+.footer--legal-nav,
+.footer--main-nav {
+    .active {
+        background-color: $secondaryColor;
+    }
 }

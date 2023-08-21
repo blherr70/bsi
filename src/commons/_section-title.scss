@@ -1,9 +1,10 @@
 #section-title {
-    font-family: "Moms_typewriter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2em;
     background-color: $lightColor;
-    padding: 10px;
+    padding: .6em;
     text-align: center;
+    border-top: 2px solid $primaryColor;
+    border-bottom: 2px solid $primaryColor;
 }
 
 .page-title {

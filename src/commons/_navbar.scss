@@ -1,11 +1,11 @@
 .main-nav {
     .active {
-        background-color: $accentColor;
-        color: $lightColor !important;
+        // background-color: $accentColor;
+        color: $lightColor;
     }
 }
 
-.header--navbar {
+.main--navbar {
     margin-top: 112px;
     background-color: $primaryColor;
 
@@ -14,7 +14,8 @@
  
        &:hover,
        &:after {
-           background-color: $lightColor;
+           background-color: $secondaryColor;
+           color: $lightColor;
        }
     }
 
