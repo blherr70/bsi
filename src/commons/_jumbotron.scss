@@ -13,22 +13,34 @@
     .brand--title {
         font-family: "Moms_typewriter", sans-serif;
         color: $primaryColor;
-        font-size: 1.5rem;
+        font-size: 20px;
 
         .brand--ext {
             color: $darkColor;
     
         }
 
-        @media screen and (min-width: 350px) {
-            font-size: 2rem;
+        @media (min-width: 340px) {
+            font-size: 25px;
+        }
 
+        @media (min-width: 576px) {
+            font-size: 32px;
         }
     }
 
     .brand--ext {
         color: $primaryColor;
 
+    }
+
+    .nav--tagline {
+        font-family: "Newsreader", sans-serif;
+        text-align: center;
+
+        @media screen and (min-width: 576px) {
+            text-align: left;
+        }
     }
 
     a {

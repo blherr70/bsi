@@ -1,22 +1,23 @@
 <div class="p-3 text-center fixed-top" id="jumbotron">
     <div class="container align-content-between">
-        <div class="row">
-        <!-- Left elements -->
-        <div class="col-sm-6 d-flex justify-content-center justify-content-md-start">
-            <a class="navbar-brand nav--title my-auto p-0" href="">
-                <img src="/assets/img/pc-logo-black.png" alt="Logo" width="32" height="32" class="mb-3">
-                <span class="brand--title">{{ site.title }} <span class="brand--ext">{{ site.ext }}</span></span>
-             </a>
-        </div>
-        <!-- Left elements -->
-
-        <!-- Right elements -->
-        <div class="col-sm-6 d-flex justify-content-center justify-content-sm-end align-items-center">
-            <div class="social">
-                {% include commons/social-icons.html %}
+        <div class="row justify-content-start">
+            <!-- Left elements -->
+            <div class="col-sm-6 d-flex-block justify-content-center justify-content-sm-start">
+                <a class="navbar-brand nav--title my-auto p-0" href="">
+                    <img src="/assets/img/pc-logo-black.png" alt="Logo" width="32" height="32" class="mb-3">
+                    <span class="brand--title ps-2">{{ site.title }} <span class="brand--ext">{{ site.ext }}</span></span>
+                </a>
+                <h4 class="nav--tagline">{{ site.tagline }}</h4>  
             </div>
-        </div>
-        <!-- Right elements -->
+            <!-- Left elements -->
+
+            <!-- Right elements -->
+            <div class="col-sm-6 d-flex justify-content-center justify-content-sm-end align-items-top p-0">
+                <div class="social pt-0 pt-sm-3">
+                    {% include commons/social-icons.html %}
+                </div>
+            </div>
+            <!-- Right elements -->
         </div>
     </div>
 </div>

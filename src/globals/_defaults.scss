@@ -6,7 +6,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Moms_typewriter", sans-serif;
   color: $primaryColor;
+}
 
+p {
+  font-size: 1rem;
 }
 
 .content-area {
@@ -43,8 +46,4 @@ a {
 .active {
   background-color: $accentColor;
   color: $lightColor !important;
-}
-
-.nav-link {
-  // margin: 3px;
 }
