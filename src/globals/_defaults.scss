@@ -1,6 +1,23 @@
+* {
+  font-family: "Newsreader", sans-serif;
+  color: $primaryColor;
+
+}
+
 body {
   font-family: "Newsreader", sans-serif;
   padding-top: $sectionTopPadding;
+
+  a {
+    color: $darkColor;
+    text-decoration: none;
+  
+    &:hover,
+    &:after {
+      color: $accentColor;
+    }
+  
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
