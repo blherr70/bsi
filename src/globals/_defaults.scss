@@ -1,7 +1,5 @@
 * {
   font-family: "Newsreader", sans-serif;
-  color: $primaryColor;
-
 }
 
 body {
@@ -16,7 +14,6 @@ body {
     &:after {
       color: $accentColor;
     }
-  
   }
 }
 
@@ -27,10 +24,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 1rem;
-}
-
-.content-area {
-  padding: 1em 0;
 }
 
 .btn {
@@ -47,6 +40,10 @@ p {
 ul {
   margin: 4px 0 0 0;
   padding: 0;
+
+  li {
+    list-style-type: none;
+  }
 }
 
 a {

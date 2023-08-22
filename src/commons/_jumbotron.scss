@@ -12,11 +12,11 @@
 
     .brand--title {
         font-family: "Moms_typewriter", sans-serif;
-        color: $primaryColor;
+        color: $accentColor;
         font-size: 20px;
 
         .brand--ext {
-            color: $darkColor;
+            color: $primaryColor;
     
         }
 
@@ -29,13 +29,9 @@
         }
     }
 
-    .brand--ext {
-        color: $primaryColor;
-
-    }
-
     .nav--tagline {
         font-family: "Newsreader", sans-serif;
+        color: $primaryColor;
         text-align: center;
 
         @media screen and (min-width: 576px) {

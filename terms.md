@@ -1,6 +1,6 @@
 --- 
 title: Terms
-layout: container
+layout: default
 ---
 
 ### Use of the Website by Minors

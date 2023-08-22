@@ -1,0 +1,25 @@
+#author-hero {
+  background-color: $lightColor;
+  padding: 5px 0;
+
+  .author-image {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 2rem;
+      display: block;
+  }
+  
+  .author-title {
+      text-align: center;
+  }
+
+  @media screen and (min-width: 576px) {
+      .author-image {
+          width: 100%;
+      }
+      
+      .author-title {
+          text-align: left;
+      }
+  }
+}

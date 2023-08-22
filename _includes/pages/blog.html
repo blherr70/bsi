@@ -1,0 +1,18 @@
+<div class="blog__list">
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      {% if forloop.index > 1 %}
+      <hr>
+      {% endif %}
+      <a href="{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+        {{ post.excerpt }}
+        <button class="btn">
+          More
+        </button>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

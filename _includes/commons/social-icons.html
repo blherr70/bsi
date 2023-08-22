@@ -1,19 +1,19 @@
 <div class="social justify-content-center">
     <ul class="social-icons my-auto">
-        {% if site.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ site.linkedin }}/"><i class="bi bi-linkedin"></i></a></li>
+        {% if site.data.profile.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}/"><i class="bi bi-linkedin"></i></a></li>
         {% endif %}
-        {% if site.twitter %}
-        <li><a href="https://twitter.com/{{ site.twitter }}"><i class="bi bi-twitter"></i></a></li>
+        {% if site.data.profile.twitter %}
+        <li><a href="https://twitter.com/{{ site.data.profile.twitter }}"><i class="bi bi-twitter"></i></a></li>
         {% endif %}
-        {% if site.instagram %}
-        <li ><a href="{{ site.instagram }}"><i class="bi bi-instagram"></i></a></li>
+        {% if site.data.profile.instagram %}
+        <li ><a href="{{ site.data.profile.instagram }}"><i class="bi bi-instagram"></i></a></li>
         {% endif %}
-        {% if site.youtube %}
-        <li ><a href="https://www.youtube.com/@{{ site.youtube }}"><i class="bi bi-youtube"></i></a></li>
+        {% if site.data.profile.youtube %}
+        <li ><a href="https://www.youtube.com/@{{ site.data.profile.youtube }}"><i class="bi bi-youtube"></i></a></li>
         {% endif %}
-        {% if site.pinterest %}
-        <li ><a href="https://www.pinterest.com/{{ site.pinterest }}/"><i class="bi bi-pinterest"></i></a></li>
+        {% if site.data.profile.pinterest %}
+        <li ><a href="https://www.pinterest.com/{{ site.data.profile.pinterest }}/"><i class="bi bi-pinterest"></i></a></li>
         {% endif %}
     </ul>
 </div>

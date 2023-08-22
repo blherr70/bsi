@@ -7,24 +7,18 @@
 // COMMONS
 @import "commons/header";
 @import "commons/jumbotron";
-@import "commons/navbar";
-@import "commons/back-to-top";
-@import "commons/footer";
 @import "commons/social-icons";
+@import "commons/navbar";
 @import "commons/section-title";
+@import "commons/footer";
+@import "commons/back-to-top";
 
 // SECTIONS
-@import "sections/portfolio";
-@import "sections/contact-info";
-@import "sections/certifications";
+@import "sections/author-hero";
 @import "sections/hero";
 
-// PAGE 1
-@import "pages/about";
-
-// PAGE 2
-
-
-// PAGE 3
-
-
+// PAGES
+@import "pages/home";
+@import "pages/the-author";
+@import "pages/blog";
+@import "pages/books";

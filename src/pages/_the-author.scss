@@ -1,22 +1,22 @@
-#about {
+#the-author {
 
-    .author-image {
+    .the-author-image {
         width: 90%;
         margin: auto;
         margin-bottom: 2rem;
         display: block;
     }
     
-    .about-title {
+    .the-author-title {
         text-align: center;
     }
 
     @media screen and (min-width: 576px) {
-        .author-image {
+        .the-author-image {
             width: 100%;
         }
         
-        .about-title {
+        .the-author-title {
             text-align: left;
         }
     }
