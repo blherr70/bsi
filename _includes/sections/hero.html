@@ -1,19 +1,20 @@
 <section class="hero-banner py-5" id="hero">
     <div class="container">
-        <div class="row row align-items-center">
-            <div class="col-lg-5 offset-lg-1 order-lg-1">
-                <img src="{{ site.data.profile.author.image }}" alt="Portrait of {{ site.data.profile.name.pen }}" class="w-100">
+        <div class="row row align-items-center align-items-md-start">
+            <div class="col-md-5">
+                <img src="{{ site.data.hero.image.url }}" alt="{{ site.data.hero.image.text }}" class="w-100">
             </div>
-            <div class="col-lg-6">
-                <h4 class="hero-lead">{{ hero.lead }}</h4>
-                <p class="hero-toptext">{{ hero.toptext }}</p>
-                <figure class="w-75 mx-auto text-center">
+            <div class="py-3 col-md-7 align-items-center text-center text-md-start">
+                <h5 class="hero-lead">{{ site.data.hero.text.lead }}</h5>
+                <h2 class="hero-title">{{ site.data.hero.text.title }}</h2>
+                <p class="hero-toptext">{{ site.data.hero.text.top }}</p>
+                <figure class="w-75 mx-auto text-center text-md-start">
                     <blockquote class="blockquote">
-                        <p>"{{ hero.quote.text }}"</p>
+                        <p>"{{ site.data.hero.quote.text }}"</p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">{{ hero.quote.author }}</figcaption>
+                    <figcaption class="blockquote-footer">{{ site.data.hero.quote.author }}</figcaption>
                 </figure>
-                <p class="hero-bottomtext">{{ hero.bottomtext }}</p>
+                <p class="hero-bottomtext">{{ site.data.hero.text.bottom }}</p>
             </div>
         </div>
     </div>

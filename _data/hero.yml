@@ -1,0 +1,12 @@
+# Hero Details
+image:
+  url: "https://cv.bryanscott.ink/assets/img/BSH_portrait_20230730_comp.jpg"
+  text: Portrait of Bryan Scott Herr
+text:
+  lead: lead text
+  title: title text
+  top: top text
+  bottom: bottom text
+quote:
+  text: quote text
+  author: quote author
