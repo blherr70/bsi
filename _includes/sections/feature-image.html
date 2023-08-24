@@ -1,3 +1,7 @@
+{% for att in site.data.attributes %}
 <section id="section-feature-image" class="">
-    SECTION
+  {% if att.name == page.image %}
+    <img class="img-fluid" src="{{ att.url }}" alt="{{ att.name }}">
+  {% endif %}
 </section>
+{% endfor %}
