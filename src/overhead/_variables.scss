@@ -1,0 +1,17 @@
+$primaryColor: #19376D;
+$secondaryColor: #A5D7E8;
+$accentColor: #576CBC;
+$darkColor: darken($primaryColor, 10%);
+$lightColor: lighten($secondaryColor, 20%);
+$sectionTopPadding: 11.4rem;
+
+
+@font-face {
+    font-family:'Moms_typewriter';
+    src: url('../../assets/fonts/Moms/Moms_typewriter.ttf');
+}
+
+@font-face {
+    font-family:'Newsreader';
+    src: url('../../assets/fonts/Newsreader/Newsreader-VariableFont_opsz\,wght.ttf');
+}
