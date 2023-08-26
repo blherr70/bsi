@@ -1,5 +1,5 @@
 --- 
-title: Attributions
+title: Attributes
 layout: default
 ---
 {% include pages/attributes.html %}

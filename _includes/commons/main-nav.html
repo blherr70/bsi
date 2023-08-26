@@ -1,14 +1,22 @@
 <ul class="navbar-nav main-nav">
+  {% if site.data.profile.shownav.home %}
   <li class="nav-item">
     <a class="nav-link {% if page.title == 'Home' %}active{% endif %}" href="{{ site.url }}/index.html">Home</a>
   </li>
+  {% endif %}
+  {% if site.data.profile.shownav.the-author %}
   <li class="nav-item">
-    <a class="nav-link {% if page.title == 'the-author' %}active{% endif %}" href="{{ site.url }}/the-author.html">The Author</a>
+    <a class="nav-link {% if page.title == 'The Author' %}active{% endif %}" href="{{ site.url }}/the-author.html">The Author</a>
   </li>
+  {% endif %}
+  {% if site.data.profile.shownav.blog %}
   <li class="nav-item">
     <a class="nav-link {% if page.title == 'Blog' %}active{% endif %}" href="{{ site.url }}/blog.html">Blog</a>
   </li>
+  {% endif %}
+  {% if site.data.profile.shownav.books %}
   <li class="nav-item">
     <a class="nav-link {% if page.title == 'Books' %}active{% endif %}" href="{{ site.url }}/books.html">Books</a>
   </li>
+  {% endif %}
 </ul>

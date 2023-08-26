@@ -7,7 +7,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       {% include commons/main-nav.html %}
-      {% include commons/legal.html %}
+
+      {% if site.data.profile.shownav.legal %}
+        {% include commons/legal.html %}
+      {% endif %}
     </div>
 
   </div>

@@ -1,17 +1,18 @@
-<div class="attributes__list">
+<div class="container attributes__list">
 
-    <div class="row">
-      {% for att in site.data.attributes %}
-      {% if forloop.index > 1 %}
-      <hr class="my-3">
+    <div class="row text-center">
+      {% for att in site.data.images %}
+      {% if att.link %}
+      <div class="col-md-6 col-lg-6 col-xl-4 col-xxl-2">
+        <div class="text-center">
+          <img class="attributes-image" src="{{ att.url }}" alt="">
+        </div>
+        <div class="pt-3 text-center">
+          <h6>{{ att.name }}</h6>
+          <p>{{ att.link }}</p>
+        </div>
+      </div>
       {% endif %}
-      <div class="col-12 justify-content-center">
-        <img class="attributes-image" src="{{ att.url }}" alt="">
-      </div>
-      <div class="col-12 justify-content-center">
-        <h6>{{ att.name }}</h6>
-        <p>{{ att.link }}</p>
-      </div>
       {% endfor %}
     </div>
 

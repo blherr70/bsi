@@ -13,3 +13,12 @@ twitter: bryanscottherr
 instagram: 
 youtube: bryanscottherr
 pinterest: TrulyThinkBigShoppe
+
+# Navigation Choices
+shownav:
+  home: yes 
+  the-author: yes
+  blog: yes
+  books: no
+  # Only in the main nav not the footer
+  legal: yes
