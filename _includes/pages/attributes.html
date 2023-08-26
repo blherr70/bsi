@@ -3,12 +3,19 @@
     <div class="row text-center">
       {% for att in site.data.images %}
       {% if att.link %}
-      <div class="col-md-6 col-lg-6 col-xl-4 col-xxl-2">
-        <div class="text-center">
-          <img class="attributes-image" src="{{ att.url }}" alt="">
+      <div class="col-md-6 col-lg-6 col-xl-4 mb-5">
+        <div class="text-center d-inline-flex mx-auto">
+          <div class="p-2 my-auto">
+            <img class="attributes-image" src="{{ att.url }}" alt="{{ att.description }}">
+            <h5>Altered</h5>
+          </div>
+          <div class="pb-0">
+            <img class="attributes-image" src="{{ att.original }}" alt="{{ att.description }}">
+            <h5>Original</h5>
+          </div>
         </div>
-        <div class="pt-3 text-center">
-          <h6>{{ att.name }}</h6>
+        <div class="pt-1 text-center">
+          <h6>{{ att.description }}</h6>
           <p>{{ att.link }}</p>
         </div>
       </div>

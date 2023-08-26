@@ -1,6 +1,15 @@
 ---
-layout: container
+layout: default
 ---
-<p>{{ page.date }} - Written by {{ page.author }}</p>
+<p class="text-start">{{ page.date }} - Written by {{ page.author }}</p>
+<hr>
+{% if page.image %}
+{% for image in site.data.images %}
+{% if image.title == page.title %}
+<img src="{{ image.url }}" alt="{{ image.description }}" class="float-start w-25 me-3">
+{% endif %}
+{% endfor %}
+{% endif %}
 
-{{ content }}
+  {{ content }}
+

@@ -2,9 +2,10 @@
   {% for feat in site.data.images %}
   {% if feat.type == "feature-image" %}
 
-  <div class="bg-image p-5 mb-5 text-black rounded section-feature__image"
+  <div class="p-5 mb-5 text-black rounded section-feature__image"
     style="background-image: url('{{ feat.url }}');">
-      <h1 class=" text-center">{{ page.title }}</h1>
+
+    {% include commons/quote.html %}
 
   </div>
 

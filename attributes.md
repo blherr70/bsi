@@ -1,5 +1,5 @@
 --- 
-title: Attributes
 layout: default
+title: Attributes
 ---
 {% include pages/attributes.html %}

@@ -1,25 +1,26 @@
+# type: feature-image, logo-image, post
+# title: Only for post type, use page.title
+# Local image location
+# original: original image for the attributes page
+# link: Link for attributes page (Copy straight from their website)
 -
-  type: "Vecteezy"
-  name: "Beach Image"
-  url: "/assets/img/vecteezy/1920-emtry-tropical-idyllic-beach-background-beautiful-endless-horizon-with-sky-and-white-sand-samae-san-island-chonburi-thailand-summer-day-concept.jpg"
+  type: "feature-image"
+  title: 
+  description: "Beach Image"
+  url: "/assets/img/vecteezy/beach-image.png"
+  original: "/assets/img/vecteezy/1920-emtry-tropical-idyllic-beach-background-beautiful-endless-horizon-with-sky-and-white-sand-samae-san-island-chonburi-thailand-summer-day-concept.jpg"
   link: "<a href='https://www.vecteezy.com/free-photos'>Free Stock photos by Vecteezy</a>"
 -
   type: "logo-image"
-  name: "PC Black Logo PNG Image"
+  title: 
+  description: "PC Black Logo PNG Image"
   url: "/assets/img/pc-logo-black.png"
+  original: 
   link: 
 -
-  type: "logo-image-backup"
-  name: "PC Silver Logo PNG Image"
+  type: "post"
+  title: "Welcome to Jekyll!"
+  description: "Silver laptop logo with fountain pen tip"
   url: "/assets/img/pc-logo-silver.png"
-  link: 
--
-  type: "logo-image-backup"
-  name: "PC Silver Logo SVG Image"
-  url: "/assets/img/pc-logo-black.svg"
-  link: 
--
-  type: "feature-image"
-  name: "Beach Image altered png"
-  url: "/assets/img/vecteezy/beach-image.png"
+  original: 
   link: 

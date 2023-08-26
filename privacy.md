@@ -2,8 +2,9 @@
 title: Privacy
 layout: default
 ---
-## What Information Does This Site Collect?  
-<br>  
+### What Information Does This Site Collect?  
+<hr>  
+
 ### Newsletter or Blog:
 If you voluntarily sign up for {{ site.title }} {{ site.ext }}’s newsletter or blog, this site will record your **email address and first name**. You can refuse to supply personal information, but that will exclude you from certain related activities such as receiving newsletters, blogs, and free offers. When subscribers click on a link in one of my emails or fills out a form, the site may record this information (see below how this information is used).
 
