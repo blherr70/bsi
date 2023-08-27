@@ -12,5 +12,5 @@ All subscribers must be 18 years or older or have the consent of a parent or gua
 ### Your Acceptance of These Terms
 By visiting and using {{ site.url }}, you signify your acceptance of this Privacy Policy. If you do not agree, you can simply not use the site. Continued use of the site means you accept the policy and any periodic changes.
 
-### Questions?
+## Questions?
 If you have any questions about this Privacy Policy or anything else on {{ site.url }}, please email {{ site.title }} at {{ site.email }}.

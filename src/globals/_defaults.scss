@@ -1,10 +1,10 @@
 * {
-  font-family: "Newsreader", sans-serif;
+  font-family: "Newsreader", serif;
 }
 
 body {
-  font-family: "Newsreader", sans-serif;
-  padding-top: $sectionTopPadding;
+  font-family: "Newsreader", serif;
+  padding-top: $bodyTopPadding;
   margin: 0;
 
   a {
@@ -16,15 +16,31 @@ body {
       color: $accentColor;
     }
   }
+
+  @media (min-width: $breakpoint-sm) {
+    padding-top: $bodyTopPadding-sm;
+  }
+
+  // @media (min-width: $breakpoint-md) {
+  //   padding-top: $bodyTopPadding-md;
+  // }
+
+  @media (min-width: $breakpoint-lg) {
+    padding-top: $bodyTopPadding-lg;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    padding-top: $bodyTopPadding-xl;
+  }
 }
 
-h1, h2, h3 {
-  font-family: "Moms_typewriter", sans-serif;
+h1, h2, h3, h4 {
+  font-family: "Courier Prime", monospace;
   color: $primaryColor;
 }
 
-h4, h5, h6 {
-  font-family: "Newsreader", sans-serif;
+h5, h6 {
+  font-family: "Newsreader", serif;
 }
 
 p {

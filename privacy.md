@@ -2,10 +2,10 @@
 title: Privacy
 layout: default
 ---
-### What Information Does This Site Collect?  
+## What Information Does This Site Collect?  
 <hr>  
 
-### Newsletter or Blog:
+### Newsletter and/or Blog:
 If you voluntarily sign up for {{ site.title }} {{ site.ext }}’s newsletter or blog, this site will record your **email address and first name**. You can refuse to supply personal information, but that will exclude you from certain related activities such as receiving newsletters, blogs, and free offers. When subscribers click on a link in one of my emails or fills out a form, the site may record this information (see below how this information is used).
 
 Subscribers may unsubscribe at any time. You may ask for all your data to be deleted at any time.
@@ -37,5 +37,5 @@ Sometimes {{ site.title}} {{ site.ext }} will include third-party links through 
 ### Security of Information
 All information is saved by {{ site.url }} and only {{ site.title}} can access them. Should a data breach ever occur, subscribers will be notified within 7 days.
 
-### Questions?
+## Questions?
 If you have any questions about this Privacy Policy or anything else on {{ site.url }}, please email {{ site.title }} at {{ site.email }}.

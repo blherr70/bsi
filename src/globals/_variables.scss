@@ -2,16 +2,16 @@ $primaryColor: #19376D;
 $secondaryColor: #A5D7E8;
 $accentColor: #576CBC;
 $darkColor: darken($primaryColor, 10%);
-$lightColor: lighten($secondaryColor, 20%);
-$sectionTopPadding: 11.4rem;
+$lightColor: lighten($secondaryColor, 17%);
 
+// Body Top Paddings
+$bodyTopPadding: 180px;
+$bodyTopPadding-sm: 201px;
+$bodyTopPadding-lg: 203px;
+$bodyTopPadding-xl: 160px;
 
-@font-face {
-    font-family:'Moms_typewriter';
-    src: url('../../Moms_typewriter.ttf');
-}
-
-@font-face {
-    font-family:'Newsreader';
-    src: url('../../Newsreader-VariableFont.ttf');
-}
+// Breakpoints
+$breakpoint-sm: 340px;
+$breakpoint-md: 576px;
+$breakpoint-lg: 590px;
+$breakpoint-xl: 1400px;

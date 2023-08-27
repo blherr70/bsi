@@ -1,49 +1,73 @@
 #jumbotron {
-    background-color: $secondaryColor;
+  background-color: $secondaryColor;
 
-    .nav--title {
-        align-content: center;
-        padding: 0;
+  img {
+    // align-self: center;
+    width: 25px;
+    height: 25px;
+
+    @media (min-width: 340px) {
+      width: 32px;
+      height: 32px;
     }
 
-    img {
-        align-self: center;
+    @media (min-width: 590px) {
+      width: 36px;
+      height: 36px;
     }
-
-    .brand--title {
-        font-family: "Moms_typewriter", sans-serif;
-        color: $accentColor;
-        font-size: 20px;
-
-        .brand--ext {
-            color: $lightColor;
-    
-        }
-
-        @media (min-width: 340px) {
-            font-size: 25px;
-        }
-
-        @media (min-width: 576px) {
-            font-size: 32px;
-        }
-    }
-
-    .nav--tagline {
-        font-family: "Newsreader", sans-serif;
-        color: $primaryColor;
-        text-align: center;
-
-        @media screen and (min-width: 576px) {
-            text-align: left;
-        }
-    }
-
-    a {
-        &:hover,
-        &:after {
-            color: $darkColor;
-        }
-    }
-
   }
+
+  .brand--title {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    color: $accentColor;
+    font-size: 1.4rem;
+
+    .brand--ext {
+      color: $lightColor;
+      font-size: 1.2rem;
+    }
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 2rem;
+
+      .brand--ext {
+        font-size: 1.6rem;
+      }
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      font-size: 2.5rem;
+
+      .brand--ext {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .nav--tagline {
+    font-family: 'Newsreader', serif;
+    color: $primaryColor;
+    font-weight: light;
+    text-align: center;
+    font-size: 1.1rem;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 1.4rem;
+      display: inline-block;
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      font-size: 1.8rem;
+    }
+  }
+
+  a {
+
+    &:hover,
+    &:after {
+      color: $darkColor;
+    }
+  }
+
+}

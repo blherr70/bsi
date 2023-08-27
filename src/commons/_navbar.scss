@@ -1,46 +1,54 @@
 .main-nav {
-    .active {
-        color: $lightColor;
-    }
+  .active {
+    color: $lightColor;
+  }
 }
 
 .main--navbar {
-    margin-top: 138px;
+  margin-top: 124px;
+  background-color: $primaryColor;
+
+  a {
+    color: $lightColor;
+
+    &:hover,
+    &:after {
+      background-color: $secondaryColor;
+      color: $lightColor;
+    }
+  }
+
+  .dropdown-menu {
+    text-decoration: none;
     background-color: $primaryColor;
+  }
 
-    a {
-       color: $lightColor;
- 
-       &:hover,
-       &:after {
-           background-color: $secondaryColor;
-           color: $lightColor;
-       }
-    }
+  .dropdown .nav-link {
+    color: $lightColor;
+  }
 
-    .dropdown-menu {
-        text-decoration: none;
-        background-color: $primaryColor;
-    }
+  .dropdown-item.active {
+    background-color: $accentColor;
+  }
 
-    .dropdown .nav-link {
-        color: $lightColor;
-    }
+  @media (min-width: $breakpoint-sm) {
+    margin-top: 145px;
+  }
 
-    .dropdown-item.active{
-        background-color: $accentColor;
-    }
+  @media (min-width: $breakpoint-md) {
+    margin-top: 121px;
+  }
 
-    @media screen and (max-width: 350px) {
-        margin-top: 137px;
-    }
+  @media (min-width: $breakpoint-lg) {
+    margin-top: 143px;
+  }
 
-    @media screen and (min-width: 576px) {
-        margin-top: 123px;
-    }
+  @media (min-width: $breakpoint-xl) {
+    margin-top: 100px;
+  }
 }
 
 .navbar-toggler {
-    background-color: $accentColor;
-    color: $primaryColor;
+  background-color: $accentColor;
+  color: $primaryColor;
 }

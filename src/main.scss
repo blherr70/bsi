@@ -1,24 +1,24 @@
 // GLOBALS
-@import "../src/globals/variables";
-@import "../src/globals/defaults";
+@import "globals/variables";
+@import "globals/defaults";
 
 // COMMONS
-@import "../src/commons/header";
-@import "../src/commons/jumbotron";
-@import "../src/commons/social-icons";
-@import "../src/commons/navbar";
-@import "../src/commons/page-title";
-@import "../src/commons/footer";
-@import "../src/commons/back-to-top";
+@import "commons/header";
+@import "commons/jumbotron";
+@import "commons/social-icons";
+@import "commons/navbar";
+@import "commons/page-title";
+@import "commons/footer";
+@import "commons/back-to-top";
 
 // SECTIONS
-@import "../src/sections/author-hero";
-@import "../src/sections/hero";
-@import "../src/sections/feature-image";
+@import "sections/author-hero";
+@import "sections/hero";
+@import "sections/feature-image";
 
 // PAGES
-@import "../src/pages/home";
-@import "../src/pages/the-author";
-@import "../src/pages/blog";
-@import "../src/pages/books";
-@import "../src/pages/attributes";
+@import "pages/home";
+@import "pages/the-author";
+@import "pages/blog";
+@import "pages/books";
+@import "pages/attributes";
