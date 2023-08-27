@@ -1,4 +1,10 @@
 .blog__list {
+
+  .blog-list__image {
+    min-width: 100px;
+    max-width: 150px;
+  }
+
   li {
     margin-bottom: 2rem;
   }

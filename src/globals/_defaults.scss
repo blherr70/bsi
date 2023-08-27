@@ -5,6 +5,7 @@
 body {
   font-family: "Newsreader", sans-serif;
   padding-top: $sectionTopPadding;
+  margin: 0;
 
   a {
     color: $darkColor;
@@ -17,12 +18,12 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: "Moms_typewriter", sans-serif;
   color: $primaryColor;
 }
 
-h5 {
+h4, h5, h6 {
   font-family: "Newsreader", sans-serif;
 }
 
