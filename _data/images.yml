@@ -7,20 +7,20 @@
   type: "feature-image"
   title: 
   description: "Beach Image"
-  url: "/assets/img/vecteezy/beach-image.png"
-  original: "/assets/img/vecteezy/1920-emtry-tropical-idyllic-beach-background-beautiful-endless-horizon-with-sky-and-white-sand-samae-san-island-chonburi-thailand-summer-day-concept.jpg"
+  url: "/assets/img/commercial/vecteezy/beach-image.png"
+  original: "/assets/img/commercial/vecteezy/1920-emtry-tropical-idyllic-beach-background-beautiful-endless-horizon-with-sky-and-white-sand-samae-san-island-chonburi-thailand-summer-day-concept.jpg"
   link: "<a href='https://www.vecteezy.com/free-photos'>Free Stock photos by Vecteezy</a>"
 -
   type: "logo-image"
   title: 
   description: "PC Black Logo PNG Image"
-  url: "/assets/img/pc-logo-black.png"
+  url: "/assets/img/logo/pc-logo-black.png"
   original: 
   link: 
 -
   type: "post"
   title: "Welcome to Jekyll!"
   description: "Silver laptop logo with fountain pen tip"
-  url: "/assets/img/pc-logo-silver.png"
+  url: "/assets/img/logo/pc-logo-silver.png"
   original: 
   link: 
