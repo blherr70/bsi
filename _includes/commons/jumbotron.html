@@ -7,9 +7,7 @@
             <div class="col-sm-6 px-0 mb-2 d-block text-center justify-content-center justify-content-md-start">
                 <a class="navbar-brand nav--title pb-2" href="{{ site.url }}/index.html">
                     <span class="brand--title">
-                      <img src="{% if logo.url %}{{ logo.url}}{% endif %}" alt="Logo" class="">
-                      {{ site.title }} 
-                      <span class="brand--ext">{{ site.ext }}</span>
+                      <img src="{% if logo.url %}{{ logo.url}}{% endif %}" alt="Logo" class="pe-2">{{ site.title }}<span class="brand--ext ms-2">{{ site.ext }}</span>
                     </span>
                 </a>
                 <span class="nav--tagline text-center text-sm-start">{{ site.tagline }}</span>  
